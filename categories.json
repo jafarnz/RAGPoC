@@ -1,0 +1,50 @@
+{
+  "Skincare": {
+    "By Collection": [
+      "Absolue",
+      "Génifique",
+      "Clarifique",
+      "Rénergie",
+      "UV Expert",
+      "Confort & Hydrazen"
+    ],
+    "By Category": [
+      "Serum",
+      "Face Cream",
+      "Eye Care",
+      "Toner & Essence",
+      "UV Protection",
+      "Refill",
+      "Cleanser"
+    ],
+    "By Concern": [
+      "Anti-Aging",
+      "Clarity & Brightening",
+      "Dark Spots",
+      "Lifting & Firming",
+      "Hydration",
+      "Dark Circles",
+      "Fine Lines & Wrinkles"
+    ]
+  },
+  "Makeup": {
+    "Face": [
+      "Foundations",
+      "Primers",
+      "Concealers",
+      "Face Powders",
+      "Blushes"
+    ],
+    "Eyes": [
+      "Mascaras",
+      "Eyeshadows",
+      "Eye Liners",
+      "Eyebrow Makeup"
+    ],
+    "Lips": [
+      "Lipsticks",
+      "Lip Gloss & Lip Balms",
+      "Liquid Lipsticks"
+    ]
+  }
+}
