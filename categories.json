@@ -1,50 +1,282 @@
 {
-  "Skincare": {
-    "By Collection": [
-      "Absolue",
-      "Génifique",
-      "Clarifique",
-      "Rénergie",
-      "UV Expert",
-      "Confort & Hydrazen"
-    ],
-    "By Category": [
-      "Serum",
-      "Face Cream",
-      "Eye Care",
-      "Toner & Essence",
-      "UV Protection",
-      "Refill",
-      "Cleanser"
-    ],
-    "By Concern": [
-      "Anti-Aging",
-      "Clarity & Brightening",
-      "Dark Spots",
-      "Lifting & Firming",
-      "Hydration",
-      "Dark Circles",
-      "Fine Lines & Wrinkles"
-    ]
-  },
   "Makeup": {
-    "Face": [
-      "Foundations",
-      "Primers",
-      "Concealers",
-      "Face Powders",
-      "Blushes"
-    ],
-    "Eyes": [
-      "Mascaras",
-      "Eyeshadows",
-      "Eye Liners",
-      "Eyebrow Makeup"
-    ],
-    "Lips": [
-      "Lipsticks",
-      "Lip Gloss & Lip Balms",
-      "Liquid Lipsticks"
-    ]
+    "_meta": {
+      "id": "cae4a1eb",
+      "qty": null,
+      "definition": "Makeup covers: Eyes, Face, Lips."
+    },
+    "Eyes": {
+      "_meta": {
+        "id": "07871a24",
+        "qty": null,
+        "definition": "Eyes covers: Eye Liners, Eyebrow Makeup, Eyeshadows, Mascaras."
+      },
+      "Eye Liners": {
+        "_meta": {
+          "id": "7d1eb130",
+          "qty": 28,
+          "definition": "Eye Liners within Eyes."
+        }
+      },
+      "Eyebrow Makeup": {
+        "_meta": {
+          "id": "2ce60c01",
+          "qty": 25,
+          "definition": "Eyebrow Makeup within Eyes."
+        }
+      },
+      "Eyeshadows": {
+        "_meta": {
+          "id": "23a7bdfa",
+          "qty": 39,
+          "definition": "Eyeshadows within Eyes."
+        }
+      },
+      "Mascaras": {
+        "_meta": {
+          "id": "b8c3c985",
+          "qty": 42,
+          "definition": "Mascaras within Eyes."
+        }
+      }
+    },
+    "Face": {
+      "_meta": {
+        "id": "05c7c5d4",
+        "qty": null,
+        "definition": "Face covers: Blushes, Concealers, Face Powders, Foundations, Primers."
+      },
+      "Blushes": {
+        "_meta": {
+          "id": "4faed25d",
+          "qty": 21,
+          "definition": "Blushes within Face."
+        }
+      },
+      "Concealers": {
+        "_meta": {
+          "id": "f92c1bde",
+          "qty": 27,
+          "definition": "Concealers within Face."
+        }
+      },
+      "Face Powders": {
+        "_meta": {
+          "id": "6ef6af49",
+          "qty": 30,
+          "definition": "Face Powders within Face."
+        }
+      },
+      "Foundations": {
+        "_meta": {
+          "id": "b3fd19b5",
+          "qty": 45,
+          "definition": "Foundations within Face."
+        }
+      },
+      "Primers": {
+        "_meta": {
+          "id": "839b2115",
+          "qty": 36,
+          "definition": "Primers within Face."
+        }
+      }
+    },
+    "Lips": {
+      "_meta": {
+        "id": "aa062f6a",
+        "qty": null,
+        "definition": "Lips covers: Lip Gloss & Lip Balms, Lipsticks, Liquid Lipsticks."
+      },
+      "Lip Gloss & Lip Balms": {
+        "_meta": {
+          "id": "b6950e08",
+          "qty": 33,
+          "definition": "Lip Gloss & Lip Balms within Lips."
+        }
+      },
+      "Lipsticks": {
+        "_meta": {
+          "id": "84773c47",
+          "qty": 50,
+          "definition": "Lipsticks within Lips."
+        }
+      },
+      "Liquid Lipsticks": {
+        "_meta": {
+          "id": "debbf8e5",
+          "qty": 29,
+          "definition": "Liquid Lipsticks within Lips."
+        }
+      }
+    }
+  },
+  "Skincare": {
+    "_meta": {
+      "id": "131351a8",
+      "qty": null,
+      "definition": "Skincare covers: By Category, By Collection, By Concern."
+    },
+    "By Category": {
+      "_meta": {
+        "id": "35fafba1",
+        "qty": null,
+        "definition": "By Category covers: Cleanser, Eye Care, Face Cream, Refill, Serum, Toner & Essence, UV Protection."
+      },
+      "Cleanser": {
+        "_meta": {
+          "id": "b868724d",
+          "qty": 47,
+          "definition": "Cleanser within By Category."
+        }
+      },
+      "Eye Care": {
+        "_meta": {
+          "id": "8b640797",
+          "qty": 100.0,
+          "definition": "Eye Care within By Category."
+        }
+      },
+      "Face Cream": {
+        "_meta": {
+          "id": "be196f40",
+          "qty": 44,
+          "definition": "Face Cream within By Category."
+        }
+      },
+      "Refill": {
+        "_meta": {
+          "id": "7eba8c67",
+          "qty": 19,
+          "definition": "Refill within By Category."
+        }
+      },
+      "Serum": {
+        "_meta": {
+          "id": "40161708",
+          "qty": 48,
+          "definition": "Serum within By Category."
+        }
+      },
+      "Toner & Essence": {
+        "_meta": {
+          "id": "cd7ebcbd",
+          "qty": 52,
+          "definition": "Toner & Essence within By Category."
+        }
+      },
+      "UV Protection": {
+        "_meta": {
+          "id": "f0e6e1b8",
+          "qty": 100.0,
+          "definition": "UV Protection within By Category."
+        }
+      }
+    },
+    "By Collection": {
+      "_meta": {
+        "id": "2aa57daf",
+        "qty": null,
+        "definition": "By Collection covers: Absolue, Clarifique, Confort & Hydrazen, G\u00e9nifique, R\u00e9nergie, UV Expert."
+      },
+      "Absolue": {
+        "_meta": {
+          "id": "3f7dfa57",
+          "qty": 28,
+          "definition": "Absolue within By Collection."
+        }
+      },
+      "Clarifique": {
+        "_meta": {
+          "id": "95b84314",
+          "qty": 37,
+          "definition": "Clarifique within By Collection."
+        }
+      },
+      "Confort & Hydrazen": {
+        "_meta": {
+          "id": "2c359969",
+          "qty": 34,
+          "definition": "Confort & Hydrazen within By Collection."
+        }
+      },
+      "G\u00e9nifique": {
+        "_meta": {
+          "id": "e015e4b8",
+          "qty": 41,
+          "definition": "G\u00e9nifique within By Collection."
+        }
+      },
+      "R\u00e9nergie": {
+        "_meta": {
+          "id": "ed2b448d",
+          "qty": 32,
+          "definition": "R\u00e9nergie within By Collection."
+        }
+      },
+      "UV Expert": {
+        "_meta": {
+          "id": "d92c7320",
+          "qty": 26,
+          "definition": "UV Expert within By Collection."
+        }
+      }
+    },
+    "By Concern": {
+      "_meta": {
+        "id": "5638afe6",
+        "qty": null,
+        "definition": "By Concern covers: Anti-Aging, Clarity & Brightening, Dark Circles, Dark Spots, Fine Lines & Wrinkles, Hydration, Lifting & Firming."
+      },
+      "Anti-Aging": {
+        "_meta": {
+          "id": "293697f6",
+          "qty": 53,
+          "definition": "Anti-Aging within By Concern."
+        }
+      },
+      "Clarity & Brightening": {
+        "_meta": {
+          "id": "483573c0",
+          "qty": 46,
+          "definition": "Clarity & Brightening within By Concern."
+        }
+      },
+      "Dark Circles": {
+        "_meta": {
+          "id": "e7ce084d",
+          "qty": 24,
+          "definition": "Dark Circles within By Concern."
+        }
+      },
+      "Dark Spots": {
+        "_meta": {
+          "id": "0a3ae157",
+          "qty": 33,
+          "definition": "Dark Spots within By Concern."
+        }
+      },
+      "Fine Lines & Wrinkles": {
+        "_meta": {
+          "id": "d50873b9",
+          "qty": 31,
+          "definition": "Fine Lines & Wrinkles within By Concern."
+        }
+      },
+      "Hydration": {
+        "_meta": {
+          "id": "625bae8c",
+          "qty": 57,
+          "definition": "Hydration within By Concern."
+        }
+      },
+      "Lifting & Firming": {
+        "_meta": {
+          "id": "260f5aae",
+          "qty": 40,
+          "definition": "Lifting & Firming within By Concern."
+        }
+      }
+    }
   }
 }
